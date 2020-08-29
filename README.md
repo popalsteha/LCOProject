@@ -1,1 +1,1 @@
-# LCOProject
+# LCO
