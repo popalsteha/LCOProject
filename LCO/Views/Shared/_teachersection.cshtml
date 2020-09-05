@@ -1,0 +1,223 @@
+﻿@*<style>
+
+        /*html, body {
+            font-family: 'Hind', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d9e2fd;
+            width: 100%;
+            height: 100%;
+        }*/
+
+        /*img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 0;
+        }*/
+
+        .carousel-wrapper {
+            position: relative;
+            width: 70%;
+            height: 70%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #FFFFFF;
+            background-image: linear-gradient(#FFFFFF 50%, #FFFFFF 50%, #F0F3FC 50%);
+            box-shadow: 0px 12px 39px -19px rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+        }
+
+            .carousel-wrapper .carousel {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+                height: auto;
+            }
+
+                .carousel-wrapper .carousel .carousel-cell {
+                    padding: 10px;
+                    background-color: #FFFFFF;
+                    width: 20%;
+                    height: auto;
+                    min-width: 120px;
+                    margin: 0 20px;
+                    transition: transform 500ms ease;
+                }
+
+                    .carousel-wrapper .carousel .carousel-cell .more {
+                        display: block;
+                        opacity: 0;
+                        margin: 5px 0 15px 0;
+                        text-align: center;
+                        font-size: 10px;
+                        color: #CFCFCF;
+                        text-decoration: none;
+                        transition: opacity 300ms ease;
+                    }
+
+                        .carousel-wrapper .carousel .carousel-cell .more:hover, .carousel-wrapper .carousel .carousel-cell .more:active, .carousel-wrapper .carousel .carousel-cell .more:visited, .carousel-wrapper .carousel .carousel-cell .more:focus {
+                            color: #CFCFCF;
+                            text-decoration: none;
+                        }
+
+                    .carousel-wrapper .carousel .carousel-cell .line {
+                        position: absolute;
+                        width: 2px;
+                        height: 0;
+                        background-color: black;
+                        left: 50%;
+                        margin: 5px 0 0 -1px;
+                        transition: height 300ms ease;
+                        display: block;
+                    }
+
+                    .carousel-wrapper .carousel .carousel-cell .text {
+                        position: absolute;
+                        font-weight: 700;
+                        margin: 45px auto 0 auto;
+                        left: 50%;
+                        transform: translate(-50%);
+                        opacity: 0;
+                        transition: opacity 300ms ease 300ms;
+                    }
+
+                        .carousel-wrapper .carousel .carousel-cell .text sup {
+                            top: 2px;
+                            position: absolute;
+                        }
+
+                    .carousel-wrapper .carousel .carousel-cell.is-selected {
+                        transform: scale(1.2);
+                    }
+
+                        .carousel-wrapper .carousel .carousel-cell.is-selected .line {
+                            height: 35px;
+                        }
+
+                        .carousel-wrapper .carousel .carousel-cell.is-selected .text, .carousel-wrapper .carousel .carousel-cell.is-selected .more {
+                            opacity: 1;
+                        }
+
+            /*.carousel-wrapper .flickity-page-dots {
+                display: none;
+            }*/
+
+            .carousel-wrapper .flickity-viewport, .carousel-wrapper .flickity-slider {
+                overflow: visible;
+            }
+    </style>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    ---- Include the above in your HEAD tag --------
+
+
+
+    <div class="carousel-wrapper">
+        <div class="carousel" data-flickity>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>ستاذ محمد</h3>
+                <a class="more" href="">استاذ محمد</a>
+                <img src="https://www.sarems.com/wp-content/uploads/2019/04/UX-vector-482x335-300x209.jpg" />
+                <div class="line"></div>
+                <div class="text">
+                    <span>225<sup>€</sup></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>*@
+
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-horizontal  S1A">
+                    <a href="" class="btn btn-primary">انشئ ملفك المرضي الخاص</a>
+                    <a href="" class="btn btn-primary mt-2">تعرف علي خدماتك المرضيه </a>
+                    <a href="" class="btn btn-primary mt-2"> تصفح العيادات والدكاتره </a>
+                    <a href="" class="btn btn-primary mt-2"> قم باجراء الفحوصات اللازمه </a>
+                    <a href="" class="btn btn-primary mt-2"> اصرف ادويتك بدون بامان  </a>
+                </div>
+            </div>
+            <div class="col-md-8 text-right">
+                <h4>الخدمات</h4>
+                <p>
+                    نقدم اليك انواع عديده من الخدمات الطبيه
+                    مثل الكشف والتحليل وعمل الاشعه و الحول علي الادويه من اي مكان في مصر
+                    وسجل طبي خاص بك - جميع الخدمات لينا الكترونيه لضمان جوده الخدمات الطبيه وتوفير اسهل الطرق واوفرها في الحصور علي الخدمات الطبيه بدون اوارق مكتوبه
+                    يمكنك صرف الادويه من الصيدليات الخاصه بنا واجراء التحاليل والاشعه في معامل التحاليا الخاصه بنا و يمكنك ايضا اجؤا الفحوصات والكشوفات في اي مكان وفي اي عياده ومستشفي و
+                    يمكنك التوجيه الي اي مكان للخضوع الي اي اجراء طبي مع ملفك الطبي الخاص بك لدين
+                    نصمن لك كل الصحه و العافيه
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
