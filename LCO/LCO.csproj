@@ -867,6 +867,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\home.css" />
+    <Content Include="Content\nav_index_style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
@@ -1080,6 +1081,7 @@
     <Folder Include="Areas\Student\Views\Shared\" />
     <Folder Include="Areas\Teacher\Data\" />
     <Folder Include="Content\MDB\" />
+    <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

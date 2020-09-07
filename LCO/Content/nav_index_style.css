@@ -1,0 +1,31 @@
+﻿/*-------simulation with bootstrap-----*/
+.overrides {
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    line-height: 60px;
+    color: #f39d1a;
+}
+
+    .overrides .nav-item .nav-link {
+        color: black;
+        padding: 10px ;
+        color: #f39d1a;
+    }
+
+        .overrides .nav-item .nav-link:hover {
+            color: white;
+            background-color: #f39d1a;
+            height:72px;
+        }
+
+        .overrides .nav-item .nav-link:visited {
+            color: black;
+        }
+
+    .overrides .nav-item {
+        list-style-type: none;
+        display: block;
+        transition: .8s all;
+        color: #f39d1a;
+    }
