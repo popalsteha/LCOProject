@@ -7,7 +7,11 @@
 
 
 #container {
+<<<<<<< HEAD
     position: relative;
+=======
+   /* position: relative;*/
+>>>>>>> c1384b684fd8227b131d1e88db91da61952144b1
     width: 100%;
 }
 
@@ -104,6 +108,7 @@ h3 {
 #teacher-container {
     padding: 2px 16px;
 }
+<<<<<<< HEAD
 #lecture-aim {
     border: none;
     background-color: #80808000;
@@ -115,6 +120,8 @@ h3 {
     width: 539px;
     margin-top: -60px;
 }
+=======
+>>>>>>> c1384b684fd8227b131d1e88db91da61952144b1
 /*follow icons*/
 #icons {
     position: absolute;
@@ -246,6 +253,7 @@ h3 {
 
             #icons li:hover:nth-child(5) a:after {
                 background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+<<<<<<< HEAD
             }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -321,3 +329,6 @@ h3 {
             background: pink;
         }
     }
+=======
+            }
+>>>>>>> c1384b684fd8227b131d1e88db91da61952144b1

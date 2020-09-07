@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>إنشاء حساب</title>
+    <link href="~/Content/StyleSheet2.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="dvcontainer">
+
+        <div class="signupbox">
+            <h1>إنشاء حساب</h1>
+            @*<form>
+            <p>إسم المسنخدم</p>
+            <input type="text" name="" placeholder="أدخل إسم المسنخدم">
+            <p>كلمة السر</p>
+            <input type="password" name="" placeholder="أدخل كلمة السر">
+            <p>تأكيد كلمة السر</p>
+            <input type="password" name="" placeholder=" أعد كتابة كلمة السر">
+            <input type="submit" name="" value="سجل"><br />
+            <a href="#">نسيت كلمة السر؟</a><br />
+
+            <a href="#">ليس لديك حساب؟</a>
+        </form>*@
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="input-group">
+                            <span class="input-group-append"><span class="fa fa-user"></span></span>
+                            <label class="label control-label">
+                                إسم المسنخدم
+                            </label>
+                            <input class="form-control" type="text" name="" placeholder="أدخل إسم المسنخدم">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-append"><span class="fa fa-user"></span></span>
+                            <label class="label control-label">
+                                الإيميل
+                            </label>
+                            <input class="form-control" type="text" name="" placeholder=" أدخل الإيميل ">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-append"><span class="fa fa-user"></span></span>
+                            <label class="label control-label">
+                                كلمة السر
+                            </label>
+                            <input class="form-control" type="password" name="" placeholder=" أدخل كلمة السر ">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-append"><span class="fa fa-user"></span></span>
+                            <label class="label control-label">
+                                تأكيد كلمة السر
+                            </label>
+                            <input class="form-control" type="password" name="" placeholder=" أكد  كلمة السر ">
+                        </div>
+                        
+                            <div class="checkbox">
+                                <asp:CheckBox ID="CheckBox1" Text="طالب" runat="server" />
+                            </div>
+                            <div class="checkbox">
+                                <asp:CheckBox ID="CheckBox1" Text="مدرس" runat="server" />
+                            </div>
+                            
+                           
+                        
+                        <div class="input-group">
+                            <input type="submit" name="" value="أنشأ حساب"><br />
+                        </div>
+
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
