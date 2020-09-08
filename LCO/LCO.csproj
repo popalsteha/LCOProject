@@ -866,11 +866,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="Content\home.css" />
-<<<<<<< HEAD
-=======
+    <Content Include="Content\homepage.css" />
     <Content Include="Content\nav_index_style.css" />
->>>>>>> c1384b684fd8227b131d1e88db91da61952144b1
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
