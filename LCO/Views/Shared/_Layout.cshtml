@@ -6,26 +6,13 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-<<<<<<< HEAD
-    @*<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>*@
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-=======
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="~/Content/nav_index_style.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
->>>>>>> c1384b684fd8227b131d1e88db91da61952144b1
-
-
-
-    @*<script src="~/Scripts/bootstrap.min.js"></script>
-        <script src="~/Scripts/jquery-3.4.1.min.js"></script>*@
 </head>
-<<<<<<< HEAD
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -62,20 +49,28 @@
             </form>
         </div>
     </nav>
+
+
     <div class=" body-content">
         @RenderBody()
-        @*<hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>*@
-=======
-<body style="direction: rtl;">
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
 
 
 
-    @*-----------------------------test customized bootstrap nav-----------------*@
 
-    <nav class="navbar navbar-expand-lg  overrides fixed-top" id="navtest">
+
+
+
+
+@*-----------------------------test customized bootstrap nav-----------------*@
+
+@*<nav class="navbar navbar-expand-lg  overrides fixed-top" id="navtest">
         <a class="navbar-brand" href="#"><img src="~/img/logo3.jpg" style="border-radius:50%;width:60px;height:60px;float:right;" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -107,23 +102,4 @@
             <a class="btn btn-outline-warning" href="~/Home/signupcustomized" style="margin-left:70px;">إنشاء حساب</a>
 
         </div>
-    </nav>
-    <br />
-    <br />
-    <br />
-    <div class=" body-content">
-        @RenderBody()
-
->>>>>>> c1384b684fd8227b131d1e88db91da61952144b1
-    </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-   
-    @*<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>*@
-
-</body>
-</html>
+    </nav>*@
